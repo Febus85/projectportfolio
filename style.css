@@ -1,0 +1,165 @@
+
+/* Background Image */
+
+body {
+ background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/light_noise_diagonal.png");
+}
+
+/* A class used to center text */
+
+.align-center {
+  text-align: center;
+}
+
+/* A dark background class used to the header  */
+
+.dark-background {
+  background-color: #2e2e2e;
+  color: white;
+  padding: 10px;
+  margin: -10px;
+  height: 100%;
+}
+
+/* All heading (h1,h2 and h3) stylizing */
+
+h1 {
+  color: #ffffff;
+  font-size: 34px;
+}
+
+h2 {
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h3 {
+  color: #000000;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-weight: normal;
+  font-size: 18px;
+}
+
+h5 {
+  color: #ffffff;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/* Targeted the paragraph text within the header section */
+
+header p {
+  color: #ababab;
+  font-size: 15px;
+  margin-top: -20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation button stylizing */
+
+nav div,
+div {
+  width: 500px;
+  margin: auto;
+  font-size: 20px;
+}
+
+.button {
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px 40px;
+  background-color: white;
+  color: #000000;
+}
+
+/* Link colors for different attributes */
+
+a {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+a:link    { color: black;  }
+a:hover   { color: red; }
+a:active  { color: red;  }
+
+/* Link colors for body section */
+
+body a {
+  
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: #ababab;
+}
+
+/* Portrait image stylizing  */
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  padding-top: 60px;
+}
+
+/* Paragraph style within the main container  */
+
+main p {
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  line-height: 30px;
+}
+
+/* Unorganized list style  */
+
+ul {
+  position: relative; 
+	display: inline-block; 
+	padding-left: 1em; 
+	left: 50%; 
+	transform: translateX(-50%); 
+}
+
+/* Organized list style  */
+
+ol {
+  position: relative; 
+	display: inline-block; 
+	padding-left: 1em; 
+  padding-bottom: 100px;
+  left: 50%; 
+	transform: translateX(-50%); 
+}
+
+/* Page Break Style */
+
+hr {
+    width:50%;
+    margin:50px auto;
+}
+
+/* Footer text Stylizing */
+
+footer p {
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  background-color: #2e2e2e;
+  color: white;
+  padding: 10px;
+  margin: -10px; 
+  height: 100%;
+}
